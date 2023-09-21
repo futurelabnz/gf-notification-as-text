@@ -44,12 +44,12 @@ if ( ! class_exists( 'GFCommon' ) ) {
  */
 function fl_change_notification_format( $notification, $form, $entry ) {
 	if ( $notification) {
-	    if ( ! empty( $notification['flSendNotificationAsText'] ) ) {
-        	$notification['message_format'] = 'text';
-    	}
+		if ( ! empty( $notification['flSendNotificationAsText'] ) ) {
+			$notification['message_format'] = 'text';
+		}
 	}
 
-    return $notification;
+	return $notification;
 }
 add_filter( 'gform_notification', 'fl_change_notification_format', 10, 3 );
 
@@ -61,17 +61,17 @@ add_filter( 'gform_notification', 'fl_change_notification_format', 10, 3 );
  */
 function fl_add_notification_setting( $fields, $notification, $form ) {
 	$fields[0]['fields'][] = array(
-        'name' => 'flSendNotificationAsText',
+		'name' => 'flSendNotificationAsText',
 		'type' => 'checkbox',
-        'label' => esc_html__( 'Email format', 'fl-send-notif' ),
-        'choices' => array(
+		'label' => esc_html__( 'Email format', 'fl-send-notif' ),
+		'choices' => array(
 			array(
 				'name'  => 'flSendNotificationAsText',
 				'label' => esc_html__( 'Send notification email as text format?', 'fl-send-notif' ),
 			),
-        )
-    );
+		)
+	);
 
-    return $fields;
+	return $fields;
 }
 add_filter('gform_notification_settings_fields', 'fl_add_notification_setting', 10, 3);
