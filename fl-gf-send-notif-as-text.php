@@ -10,6 +10,7 @@
  * Plugin Name:  FL Gravity Forms send notifications as text
  * Description:  Adds an option to force send notification as text instead of HTML
  * Version:      1.0.0
+ * Plugin URI:   https://github.com/futurelabnz/gf-notification-as-text/
  * Author:       FutureLab Digital & Contributors
  * Author URI:   https://futurelab.digital
  * Text Domain:  fl-send-notif
