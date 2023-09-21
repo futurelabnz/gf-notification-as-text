@@ -42,6 +42,10 @@ If you want to discuss agency work - feel free to visit our [website](https://fu
 
 ## Changelog ##
 
+### 1.0.1 ###
+
+* Add readme.txt for WordPress.org repo submission.
+
 ### 1.0.0 ###
 
 * Initial release
