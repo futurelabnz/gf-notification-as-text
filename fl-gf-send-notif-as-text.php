@@ -67,7 +67,7 @@ function fl_add_notification_setting( $fields, $notification, $form ) {
         'choices' => array(
 			array(
 				'name'  => 'flSendNotificationAsText',
-				'label' => esc_html__( 'Send notification email as text (leave unchecked to send as HTML, or default)', 'fl-send-notif' ),
+				'label' => esc_html__( 'Send notification email as text format?', 'fl-send-notif' ),
 			),
         )
     );
