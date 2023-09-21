@@ -1,0 +1,43 @@
+# Copyright (C) 2023 FutureLab Digital & Contributors
+# This file is distributed under the same license as the FL Gravity Forms send notifications as text plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: FL Gravity Forms send notifications as text 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fl-gf-send-notif-as-text\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-21T07:14:33+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: fl-send-notif\n"
+
+#. Plugin Name of the plugin
+msgid "FL Gravity Forms send notifications as text"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/futurelabnz/gf-notification-as-text/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds an option to force send notification as text instead of HTML"
+msgstr ""
+
+#. Author of the plugin
+msgid "FutureLab Digital & Contributors"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://futurelab.digital"
+msgstr ""
+
+#: fl-gf-send-notif-as-text.php:65
+msgid "Email format"
+msgstr ""
+
+#: fl-gf-send-notif-as-text.php:69
+msgid "Send notification email as text format?"
+msgstr ""
