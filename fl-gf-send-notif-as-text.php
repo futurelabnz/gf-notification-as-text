@@ -40,10 +40,9 @@ if ( ! class_exists( 'GFCommon' ) ) {
  * Set notification to text only if flSendNotificationAsText is set.
  * 
  * @see https://docs.gravityforms.com/gform_notification/ for filter documentation.
- * 
  */
 function fl_change_notification_format( $notification, $form, $entry ) {
-	if ( $notification) {
+	if ( $notification ) {
 		if ( ! empty( $notification['flSendNotificationAsText'] ) ) {
 			$notification['message_format'] = 'text';
 		}
@@ -52,7 +51,6 @@ function fl_change_notification_format( $notification, $form, $entry ) {
 	return $notification;
 }
 add_filter( 'gform_notification', 'fl_change_notification_format', 10, 3 );
-
 
 /**
  * Add GF notification setting
@@ -74,4 +72,4 @@ function fl_add_notification_setting( $fields, $notification, $form ) {
 
 	return $fields;
 }
-add_filter('gform_notification_settings_fields', 'fl_add_notification_setting', 10, 3);
+add_filter( 'gform_notification_settings_fields', 'fl_add_notification_setting', 10, 3 );
